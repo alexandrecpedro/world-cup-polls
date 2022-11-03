@@ -64,9 +64,9 @@ The following tools were used in building the project:<br><br>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
   <!-- <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/> -->
   <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <img height =' 100px ' left=' 20px ' src="https://jwt.io/img/logo-asset.svg" />
   <br>
   <img height =' 100px ' left=' 20px ' src="./project/logo/fastify_logo.png" />
-  <img height =' 100px ' left=' 20px ' src="https://jwt.io/img/logo-asset.svg" />
   <br>
   <h3>Testing</h3>
   <img width =' 100px ' src="./project/logo/hoppscotch_logo.png" />
