@@ -417,9 +417,7 @@ The following tools were used in building the project:<br><br>
             </li>
             <li>Ranking
               <ul>
-                <li>Vector-Icons (Expo): MaterialIcons</li>
-                <li>Phosphor Icon React Native: CheckCircle </li>
-                <li>Comunnicate to TS which routes are available: ./src/@types/navigation.d.ts</li>
+                <li></li>
               </ul>
             </li>
           </ul>
