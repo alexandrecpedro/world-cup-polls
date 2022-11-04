@@ -54,7 +54,6 @@ The following tools were used in building the project:<br><br>
 |        Navigation between pages (Mobile)         |     REACT NAVIGATION      |  https://reactnavigation.org/                |
 |                Database (Backend)                |          SQLITE           | https://www.sqlite.org/index.html                |
 |  Promise based HTTP client - browser & Node.js   |           AXIOS           |      https://axios-http.com/                |
-|             UI Components for React              |         RADIX-UI          |     https://www.radix-ui.com/                |
 |  Node.js and TypeScript ORM (Backend, Database)  |          PRISMA           |      https://www.prisma.io/                 |
 |                      Security                    |            JWT            |      https://jwt.io/                 |
 <br>
@@ -63,39 +62,38 @@ The following tools were used in building the project:<br><br>
   <h3>Backend | API</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
   <!-- <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/> -->
-  <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-  <img height =' 100px ' left=' 20px ' src="https://jwt.io/img/logo-asset.svg" />
+  <img height =' 100px ' left=' 40px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <img height =' 100px ' left=' 40px ' src="https://jwt.io/img/logo-asset.svg" />
   <br>
-  <img height =' 100px ' left=' 20px ' src="./project/logo/fastify_logo.png" />
+  <img height =' 100px ' left=' 40px ' src="./project/logo/fastify_logo.png" />
   <br>
   <h3>Testing</h3>
   <img width =' 100px ' src="./project/logo/hoppscotch_logo.png" />
   <br>
   <h3>Database</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" />
-  <img height =' 100px ' left=' 20px ' src="./project/logo/prisma_logo.png" />
+  <img height =' 100px ' left=' 40px ' src="./project/logo/prisma_logo.png" />
   <br>
   <h3>IDE</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
   <br>
   <h3>UX/UI</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-  <img height =' 100px ' left=' 20px ' src="./project/logo/phosphor-icons_logo.png"/>
-  <img height =' 100px ' left=' 20px ' src="./project/logo/nativebase_logo.svg" />
+  <img height =' 100px ' left=' 40px ' src="./project/logo/phosphor-icons_logo.png"/>
+  <img height =' 100px ' left=' 40px ' src="./project/logo/nativebase_logo.svg" />
   <br>
   <h3>Frontend</h3>
   <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-  <img width =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-  <img height =' 50px ' left=' 20px ' src="./project/logo/tailwind-css_logo.svg" />
+  <img width =' 100px ' left=' 40px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <img height =' 100px ' left=' 40px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"/>
   <br>
-  <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"/>
-  <img height =' 100px ' left=' 20px ' src="./project/logo/radix-ui_logo.png"/>
+  <img height =' 50px ' src="./project/logo/tailwind-css_logo.svg" />
   <br>
   <h3>Mobile</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-  <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-  <img height =' 100px ' left=' 20px ' src="./project/logo/react_navigation.svg" />
-  <img height =' 100px ' left=' 20px ' src="./project/logo/expo.png" />
+  <img height =' 100px ' left=' 40px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <img height =' 100px ' left=' 40px ' src="./project/logo/react_navigation.svg" />
+  <img height =' 100px ' left=' 40px ' src="./project/logo/expo.png" />
   <br>
 </div>
 
