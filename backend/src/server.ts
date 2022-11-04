@@ -17,35 +17,41 @@ async function bootstrap() {
         logger: true,
     })
 
-    /** CORS **/
-    await fastify.register(cors, {
-        origin: true,
-    })
+    try {
+        /** CORS **/
+        await fastify.register(cors, {
+            origin: true,
+        })
 
-    /** ROUTES **/
-    // Polls
-    await fastify.register(pollRoutes)
+        /** ROUTES **/
+        // Polls
+        await fastify.register(pollRoutes)
 
-    // Authentication
-    await fastify.register(authRoutes)
+        // Authentication
+        await fastify.register(authRoutes)
 
-    // Game
-    await fastify.register(gameRoutes)
+        // Game
+        await fastify.register(gameRoutes)
 
-    // Guesses
-    await fastify.register(guessRoutes)
+        // Guesses
+        await fastify.register(guessRoutes)
 
-    // Users
-    await fastify.register(userRoutes)
+        // Users
+        await fastify.register(userRoutes)
 
-    /** JWT **/
-    await fastify.register(jwt, {
-        // secret: JWT_FASTIFY_SECRET?.toString(),
-        secret: 'nlwworldcup',
-    })
+        /** JWT **/
+        await fastify.register(jwt, {
+            // secret: JWT_FASTIFY_SECRET?.toString(),
+            secret: 'nlwworldcup',
+        })
 
-    await fastify.listen({ port: 3333, /* host: '0.0.0.0' */ })
-    // await fastify.listen({ port: 3333, host: '0.0.0.0' })
+        // await fastify.listen({ port: 3333, /* host: '0.0.0.0' */ })
+        // For Android:
+        await fastify.listen({ port: 3333, host: '0.0.0.0' })
+    } catch (err) {
+        fastify.log.error(err)
+        process.exit(1)
+    }
 }
 
 bootstrap()

@@ -272,10 +272,15 @@ The following tools were used in building the project:<br><br>
             </li>
             <li>Google Authentication: 
               <ul>
-                <li>Install expo-auth-session: npx expo install expo-auth-session expo-random</li>
-                <li>Install expo-web-browser: npx expo install expo-web-browser</li>
+                <li>Expo AuthSession library: expo install expo-auth-session expo-random </li>
+                <li>Expo WebBrowser library: npx expo install expo-web-browser</li>
                 <li>Create a schema: ./app.json</li>
-                <li>Login to Expo by terminal: npx expo login</li>
+                <li>Before executing app:
+                  <ul>
+                    <li>At terminal: npx expo login</li>
+                    <li>Enter your login credentials (user and password)</li>
+                  </ul>
+                </li>
                 <li>Set OAuth with Google (https://console.cloud.google.com)</li>
                 <li>Apply Google authentication: ./src/screens/SignIn.tsx</li>
               </ul>
@@ -361,74 +366,62 @@ The following tools were used in building the project:<br><br>
     <br>
     <li &nbsp;>Part 5 - Finishing app and features<br/>
       <ul &nbsp;>
-        <li &nbsp;><b>Frontend project</b>
-          <ul>
-            <li>Create component: CreateAdModal</li>
-            <li>Use Radix UI Components 
-              <ul>
-                <li>Checkbox = npm install @radix-ui/react-checkbox</li>
-                <li>Select = npm install @radix-ui/react-select</li>
-                <li>Toggle Group = npm install @radix-ui/react-toggle-group</li>
-              </ul>
-            </li>
-            <li>Send Ad modal values to API (backend service)
-              <ul>
-                <li>Axios: npm install axios</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
         <li &nbsp;><b>Mobile project</b>
           <ul>
-            <li>Create component: DuoMatch (Modal)</li>
-            <li>Set navigation from Game modal to DuoMatch (modal)</li>
-            <li>Use UI Icons
+            <li>New: ./src/screens/New.tsx
+              <ul>
+                <li>Create a new poll</li>
+              </ul>
+            </li>
+            <li>Polls: ./src/screens/Polls.tsx
+              <ul>
+                <li>List created polls</li>
+                <li>Using toast message</li>
+                <li>Using FlatList</li>
+                <li>Apply List Empty Component: ./src/components/EmptyPollList.tsx</li>
+                <li>Reloading list when the focus return to the interface</li>
+              </ul>
+            </li>
+            <li>Find: ./src/screens/Find.tsx
+              <ul>
+                <li>Enter in a poll by code</li>
+              </ul>
+            </li>
+            <li>Details: ./src/screens/Details.tsx
+              <ul>
+                <li>Include Details at route: ./src/routes/app.routes.tsx</li>
+                <li>Implement options: Guess and Ranking</li>
+                <li>Passing parameters through route</li>
+                <li>Searching poll details</li>
+                <li>Sharing poll code</li>
+              </ul>
+            </li>
+            <li>Guesses: ./src/components/Guesses.tsx
+              <ul>
+                <li>Searching the games</li>
+                <li>Registering the guess:
+                  <ul>
+                    <li>Dayjs library: npm i dayjs</li>
+                    <li>Enter Game component: ./src/components/Game.tsx</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>Environmental variables:.env
+              <ul>
+                <li>DotEnv library: npm i dotenv -D</li>
+                <li>Babel Plugin Inline DotEnv library: npm i babel-plugin-inline-dotenv -D</li>
+                <li>Set babel.config.js</li>
+                <li>Apply environmental variables</li>
+              </ul>
+            </li>
+            <li>Ranking
               <ul>
                 <li>Vector-Icons (Expo): MaterialIcons</li>
                 <li>Phosphor Icon React Native: CheckCircle </li>
                 <li>Comunnicate to TS which routes are available: ./src/@types/navigation.d.ts</li>
               </ul>
             </li>
-            <li>New Features
-              <ol>
-                <li>Condional open and close DuoMatch (modal) from Game page (screen)</li>
-                <li>Open DuoMatch (modal) when click at Connect button on Game page (screen)</li>
-                <li>When click at discordUser from DuoMatch (modal), keep this info to transfer area
-                  <ul>
-                    <li>Clipboard library: expo install expo-clipboard</li>
-                  </ul>
-                </li>
-                <li>Sending notifications (push), when keeping discordUser at device clipboard
-                  <ul>
-                    <li>Expo Notifications library: expo install expo-notifications</li>
-                    <li>New Services
-                      <ul>
-                        <li>Set user notifications configuration from this app</li>
-                        <li>Find device identificator token (getPushNotificationToken)</li>
-                        <li>Expo Modules Core library: expo install expo-modules-core</li>
-                        <li>Keep some devices references (useRef hook): getNotificationListener, responseNotificationListener</li>
-                        <li>Send the notification to an specific device by notification token </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li> Link with Discord Session
-                  <ul>
-                    <li>Expo AuthSession library: expo install expo-auth-session expo-random </li>
-                    <li>Create a new Screen: SignIn (./src/screens/SignIn/index.tsx)</li>
-                    <li>Get Discord Authentication URL: http://discord.com/developers/applications</li>
-                  </ul>
-                </li>
-              </ol>
-            </li>
-            <li>Before executing app:
-              <ol>
-                <li>At terminal: expo login</li>
-                <li>Enter your login credentials (user and password)</li>
-              </ol>
-            </li>
-            <li>Start the app with expo: expo start</li>
-            <li>Test notifications using web interface (Push notifications tools): http://expo.dev/notifications</li>
           </ul>
         </li>
       </ul> 
@@ -528,6 +521,7 @@ The following tools were used in building the project:<br><br>
                 <li>npx install-expo-modules@latest</li>
                 <li &nbsp;>npm install expo</li>
                 <li &nbsp;>expo install</li>
+                <li &nbsp;>npm install</li>
               </ul>
             </li>
             <li &nbsp;>Run
